@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head> 
+		<meta charset="UTF-8">
+		<title>Calculator</title>
+		<link id="change" rel="stylesheet" href="css/calculator.css">
+		<script src="js/calculator.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Nerocodes Calculator</h1>
+		</header>
+		<div class="body">
+			<div class="screen" id="in">
+				<p class="get" id="get"></p>
+				<p id="out"><input id="put" ></p>
+			</div>
+			<div class ="reveal" >
+					<button type="button" onclick="bequals()">=</button>
+					<button id="dis" type="button" onclick="bops()">OPs</button>
+					<button type="button" onclick="bclr()">C</button>
+					<button type="button" onclick="bret()">R</button>
+			</div>
+			<div class ="hidden" id="h">
+					<button type="button" onclick="bpluss()">+</button>
+					<button type="button" onclick="bminuss()">-</button>
+					<button type="button" onclick="btimess()">*</button>
+					<button type="button" onclick="bdivides()">/</button>
+			</div>
+			<div class="hide">
+				<div class ="bt0" >
+					<button type="button" onclick="bopen()">(</button>
+					<button type="button" onclick="bclose()">)</button>
+					<button type="button" onclick="bc()">C</button>
+					<button type="button" onclick="btrans()">T</button>
+				</div>
+				<div class="bt" id="first">
+					<button type="button" onclick="b1()">1</button>
+					<button type="button" onclick="b2()">2</button>
+					<button type="button" onclick="b3()">3</button>
+					<button type="button" onclick="bplus()">+</button>
+				</div>		
+				<div class="bt2" id="second">
+					<button type="button" onclick="b4()">4</button>
+					<button type="button" onclick="b5()">5</button>
+					<button type="button" onclick="b6()">6</button>
+					<button type="button" onclick="bminus()">-</button>
+				</div>
+				<div class="bt3" id="third">
+					<button type="button" onclick="b7()">7</button>
+					<button type="button" onclick="b8()">8</button>
+					<button type="button" onclick="b9()">9</button>
+					<button type="button" onclick="btimes()">*</button>
+				</div>
+				<div class="bt4" id="fourth">
+					<button type="button" onclick="bpoint()">.</button>
+					<button type="button" onclick="b0()">0</button>
+					<button type="button" onclick="bdivide()">/</button>
+					<button type="button" onclick="bequal()">=</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

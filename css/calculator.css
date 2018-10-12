@@ -1,0 +1,83 @@
+body{
+	background-color: #000000;
+}
+header{
+	text-align: center;
+	background-color: #2255bb;
+	height: 30%;
+	margin: 2%;
+	background: -webkit-linear-gradient(top, #666666 0%, #2255bb);
+}
+h1{
+	color: #ffffff;
+	padding: 3%;
+	 font-size: 350%;   
+}
+.body{
+	background-color: #666666;
+	width: 40%;
+	height: 80%;
+	display: block;
+	margin: 0 auto;
+	padding: 2%;
+}
+input{
+	display: none;	
+}
+.reveal{
+	display: none;
+}
+.screen{
+	overflow: scroll;
+	width:90%;
+	height: 30%;
+	margin: 4%;
+	display: block;
+	background-color: #ffffff;
+	margin-top: 0%;
+	padding: 1% 0% 0% 0%;
+	
+}
+.get{
+	font-size: 50px;
+}
+.bt0{
+	display: inline-block;
+	width: 90%;
+	margin: 4%;
+	padding: 0% 4% 0% 4%;
+}
+.bt{
+	display: inline-block;
+	width: 90%;
+	margin: 4%;
+	padding: 0% 4% 0% 4%;
+}
+.bt2{
+	display: inline-block;
+	width: 90%;
+	margin: 4%;
+	padding: 0% 4% 0% 4%;
+}
+.bt3{
+	display: inline-block;
+	width: 90%;
+	margin: 4%;
+	padding: 0% 4% 0% 4%;
+}
+.bt4{
+	display: inline-block;
+	width: 90%;
+	margin: 4%;
+	padding: 0% 4% 0% 4%;
+}
+button{
+	width: 20%;
+	font-size: 25px;
+	margin: 0% 1% 0% 1%;
+	display: inline-block;
+	padding: 1%;
+}
+.hidden{
+	display: none;
+}
